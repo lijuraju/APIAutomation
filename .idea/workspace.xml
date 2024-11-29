@@ -4,16 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6f4aa7f-24ed-4c52-ae7d-10c05438ced0" name="Changes" comment="Initial commit for the project">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/APIAutomation/November/Nov272024/APITest01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/APIAutomation/November/Nov272024/HealthCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/APIAutomation/November/Nov292024/APITest001_BDDStyleGET.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng2.xml" afterDir="false" />
+    <list default="true" id="d6f4aa7f-24ed-4c52-ae7d-10c05438ced0" name="Changes" comment="29Nov2024">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/APIAutomation/November/Nov292024/APITest001_BuilderPatternDesign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/APIAutomation/November/Nov292024/APITest002_POST_BDDSTYLE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/APIAutomation/November/Nov292024/APITest003_POST_NONBDDSTyle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/APIAutomation/November/Nov292024/APITest004_GET_NONBDDStyle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/APIAutomation/November/Nov292024/DELETE/APITest005_DELETE_NONBDDStyle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/APIAutomation/November/Nov292024/PUT/APITest005_PUT_NonBDDStyle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,12 +51,18 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.APITest001_BuilderPatternDesign.executor": "Run",
     "Application.APITest01.executor": "Run",
     "Application.HealthCheck.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "TestNG.APITest002_POST_BDDSTYLE.test_Post_Req.executor": "Run",
+    "TestNG.APITest003_POST_NONBDDSTyle.test_Post_Req.executor": "Run",
+    "TestNG.APITest004_GET_NONBDDStyle.executor": "Run",
+    "TestNG.APITest004_GET_NONBDDStyle.test_GET_Req.executor": "Run",
+    "TestNG.APITest005_PUT_NonBDDStyle.test_PUT_Req.executor": "Run",
     "TestNG.C:/Personal/APIAutomation/testng.xml.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
@@ -75,25 +79,90 @@
       <recent name="C:\Personal\APIAutomation\src\test\java\org\APIAutomation\Nov\November" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Personal/APIAutomation/testng.xml">
-    <configuration name="APITest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.APIAutomation.Nov.November.APITest01" />
+  <component name="RunManager" selected="TestNG.APITest005_DELETE_NONBDDStyle.test_Delete_Req">
+    <configuration name="APITest003_POST_NONBDDSTyle.test_Post_Req" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.APIAutomation.November.Nov292024.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.APIAutomation.November.Nov292024" />
+      <option name="MAIN_CLASS_NAME" value="org.APIAutomation.November.Nov292024.APITest003_POST_NONBDDSTyle" />
+      <option name="METHOD_NAME" value="test_Post_Req" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HealthCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.APIAutomation.Nov.November.HealthCheck" />
+    <configuration name="APITest004_GET_NONBDDStyle" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.APIAutomation.November.Nov292024.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.APIAutomation.November.Nov292024" />
+      <option name="MAIN_CLASS_NAME" value="org.APIAutomation.November.Nov292024.APITest004_GET_NONBDDStyle" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Personal/APIAutomation/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="APITest004_GET_NONBDDStyle.test_GET_Req" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomation" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.APIAutomation.November.Nov292024.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.APIAutomation.November.Nov292024" />
+      <option name="MAIN_CLASS_NAME" value="org.APIAutomation.November.Nov292024.APITest004_GET_NONBDDStyle" />
+      <option name="METHOD_NAME" value="test_GET_Req" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="APITest005_DELETE_NONBDDStyle.test_Delete_Req" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.APIAutomation.November.Nov292024.DELETE.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.APIAutomation.November.Nov292024.DELETE" />
+      <option name="MAIN_CLASS_NAME" value="org.APIAutomation.November.Nov292024.DELETE.APITest005_DELETE_NONBDDStyle" />
+      <option name="METHOD_NAME" value="test_Delete_Req" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="APITest005_PUT_NonBDDStyle.test_PUT_Req" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.APIAutomation.November.Nov292024.PUT.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.APIAutomation.November.Nov292024.PUT" />
+      <option name="MAIN_CLASS_NAME" value="org.APIAutomation.November.Nov292024.PUT.APITest005_PUT_NonBDDStyle" />
+      <option name="METHOD_NAME" value="test_PUT_Req" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -102,9 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Personal/APIAutomation/testng.xml" />
-        <item itemvalue="Application.APITest01" />
-        <item itemvalue="Application.HealthCheck" />
+        <item itemvalue="TestNG.APITest005_DELETE_NONBDDStyle.test_Delete_Req" />
+        <item itemvalue="TestNG.APITest005_PUT_NonBDDStyle.test_PUT_Req" />
+        <item itemvalue="TestNG.APITest004_GET_NONBDDStyle" />
+        <item itemvalue="TestNG.APITest004_GET_NONBDDStyle.test_GET_Req" />
+        <item itemvalue="TestNG.APITest003_POST_NONBDDSTyle.test_Post_Req" />
       </list>
     </recent_temporary>
   </component>
@@ -125,11 +196,20 @@
       <option name="project" value="LOCAL" />
       <updated>1732688014655</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="29Nov2024">
+      <option name="closed" value="true" />
+      <created>1732864663622</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1732864663622</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit for the project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit for the project" />
+    <MESSAGE value="29Nov2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="29Nov2024" />
   </component>
 </project>
