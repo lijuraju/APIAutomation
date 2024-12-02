@@ -5,6 +5,11 @@
         <classes>
             <class name="org.APIAutomation.November.Nov292024.APITest001_BDDStyleGET">
             </class>
+
+            <class name="org.APIAutomation.November.Nov292024.APITest002_POST_BDDSTYLE">
+
+
+            </class>
         </classes>
     </test>
 </suite>
