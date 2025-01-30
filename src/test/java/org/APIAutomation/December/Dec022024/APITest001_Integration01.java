@@ -1,4 +1,4 @@
-package org.APIAutomation.November.December.Dec022024;
+package org.APIAutomation.December.Dec022024;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;

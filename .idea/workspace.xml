@@ -4,12 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6f4aa7f-24ed-4c52-ae7d-10c05438ced0" name="Changes" comment="REST CRUD operations">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/APIAutomation/November/December/Dec022024/APITest001_Integration01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/APIAutomation/November/Nov302024/APITest001_RESTAssuredBasics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/APIAutomation/November/Nov302024/Static_Example.java" afterDir="false" />
+    <list default="true" id="d6f4aa7f-24ed-4c52-ae7d-10c05438ced0" name="Changes" comment="Dec03-Integration">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/APIAutomation/December/Dec022024/APITest001_Integration01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/APIAutomation/December/Dec022024/APITest002_Integration02_Create_GET.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/APIAutomation/December/Dec022024/APITest003_Integration03_GET_PUT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/APIAutomation/December/Dec042024/Test01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/APIAutomation/January2025/REST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/APIAutomation/January2025/REST2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/APIAutomation/November/December/Dec022024/APITest001_Integration01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/APIAutomation/November/December/Dec022024/APITest002_Integration02_Create_GET.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/APIAutomation/November/December/Dec022024/APITest003_Integration03_GET_PUT.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +65,9 @@
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "TestNG.APITest001_Integration01.executor": "Run",
     "TestNG.APITest001_RESTAssuredBasics.testGetRequest.executor": "Run",
+    "TestNG.APITest002_Integration02_Create_GET.executor": "Run",
     "TestNG.APITest002_POST_BDDSTYLE.test_Post_Req.executor": "Run",
+    "TestNG.APITest003_Integration03_GET_PUT.executor": "Run",
     "TestNG.APITest003_POST_NONBDDSTyle.test_Post_Req.executor": "Run",
     "TestNG.APITest004_GET_NONBDDStyle.executor": "Run",
     "TestNG.APITest004_GET_NONBDDStyle.test_GET_Req.executor": "Run",
@@ -67,6 +75,10 @@
     "TestNG.APITest005_PUT_NonBDDStyle.test_PUT_Req.executor": "Run",
     "TestNG.C:/Personal/APIAutomation/testng.xml.executor": "Run",
     "TestNG.C:/Personal/APIAutomation/testng2.xml.executor": "Run",
+    "TestNG.REST.testGETRequestBooking.executor": "Run",
+    "TestNG.REST2.testGETRequest.executor": "Run",
+    "TestNG.REST2.testPOSTBooking.executor": "Run",
+    "TestNG.Test01.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Personal/APIAutomation",
@@ -82,77 +94,82 @@
       <recent name="C:\Personal\APIAutomation\src\test\java\org\APIAutomation\Nov\November" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.APITest001_Integration01">
-    <configuration name="Static_Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.APIAutomation.November.Nov302024.Static_Example" />
+  <component name="RunManager" selected="TestNG.REST2.testPOSTBooking">
+    <configuration name="C:/Personal/APIAutomation/testng3.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.APIAutomation.November.Nov302024.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="APITest001_Integration01" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="APIAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.APIAutomation.November.December.Dec022024.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.APIAutomation.November.December.Dec022024" />
-      <option name="MAIN_CLASS_NAME" value="org.APIAutomation.November.December.Dec022024.APITest001_Integration01" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="APITest001_RESTAssuredBasics.testGetRequest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="APIAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.APIAutomation.November.Nov302024.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.APIAutomation.November.Nov302024" />
-      <option name="MAIN_CLASS_NAME" value="org.APIAutomation.November.Nov302024.APITest001_RESTAssuredBasics" />
-      <option name="METHOD_NAME" value="testGetRequest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="APITest005_DELETE_NONBDDStyle.test_Delete_Req" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="APIAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.APIAutomation.November.Nov292024.DELETE.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.APIAutomation.November.Nov292024.DELETE" />
-      <option name="MAIN_CLASS_NAME" value="org.APIAutomation.November.Nov292024.DELETE.APITest005_DELETE_NONBDDStyle" />
-      <option name="METHOD_NAME" value="test_Delete_Req" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C:/Personal/APIAutomation/testng2.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="APIAutomation" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng2.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng3.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="REST2.testGETRequest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.APIAutomation.January2025.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.APIAutomation.January2025" />
+      <option name="MAIN_CLASS_NAME" value="org.APIAutomation.January2025.REST2" />
+      <option name="METHOD_NAME" value="testGETRequest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="REST2.testPOSTBooking" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.APIAutomation.January2025.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.APIAutomation.January2025" />
+      <option name="MAIN_CLASS_NAME" value="org.APIAutomation.January2025.REST2" />
+      <option name="METHOD_NAME" value="testPOSTBooking" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="REST.testGETRequestBooking" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.APIAutomation.January2025.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.APIAutomation.January2025" />
+      <option name="MAIN_CLASS_NAME" value="org.APIAutomation.January2025.REST" />
+      <option name="METHOD_NAME" value="testGETRequestBooking" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test01" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.APIAutomation.November.December.Dec042024.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.APIAutomation.November.December.Dec042024" />
+      <option name="MAIN_CLASS_NAME" value="org.APIAutomation.November.December.Dec042024.Test01" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -161,11 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.APITest001_Integration01" />
-        <item itemvalue="Application.Static_Example" />
-        <item itemvalue="TestNG.APITest001_RESTAssuredBasics.testGetRequest" />
-        <item itemvalue="TestNG.C:/Personal/APIAutomation/testng2.xml" />
-        <item itemvalue="TestNG.APITest005_DELETE_NONBDDStyle.test_Delete_Req" />
+        <item itemvalue="TestNG.REST2.testPOSTBooking" />
+        <item itemvalue="TestNG.REST2.testGETRequest" />
+        <item itemvalue="TestNG.REST.testGETRequestBooking" />
+        <item itemvalue="TestNG.C:/Personal/APIAutomation/testng3.xml" />
+        <item itemvalue="TestNG.Test01" />
       </list>
     </recent_temporary>
   </component>
@@ -202,13 +219,36 @@
       <option name="project" value="LOCAL" />
       <updated>1732885421429</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Dec02-Integration">
+      <option name="closed" value="true" />
+      <created>1733111392607</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1733111392607</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Dec03-Integration">
+      <option name="closed" value="true" />
+      <created>1733194414436</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1733194414436</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit for the project" />
     <MESSAGE value="29Nov2024" />
     <MESSAGE value="REST CRUD operations" />
-    <option name="LAST_COMMIT_MESSAGE" value="REST CRUD operations" />
+    <MESSAGE value="Dec02-Integration" />
+    <MESSAGE value="Dec03-Integration" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dec03-Integration" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/APIAutomation$APITest003_Integration03_GET_PUT.ic" NAME="APITest003_Integration03_GET_PUT Coverage Results" MODIFIED="1733194146073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>org.APIAutomation.November.December.Dec022024.*</FILTER>
+    </SUITE>
   </component>
 </project>
