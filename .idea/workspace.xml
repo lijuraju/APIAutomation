@@ -4,18 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6f4aa7f-24ed-4c52-ae7d-10c05438ced0" name="Changes" comment="Dec03-Integration">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/APIAutomation/December/Dec022024/APITest001_Integration01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/APIAutomation/December/Dec022024/APITest002_Integration02_Create_GET.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/APIAutomation/December/Dec022024/APITest003_Integration03_GET_PUT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/APIAutomation/December/Dec042024/Test01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/APIAutomation/January2025/REST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/APIAutomation/January2025/REST2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/APIAutomation/November/December/Dec022024/APITest001_Integration01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/APIAutomation/November/December/Dec022024/APITest002_Integration02_Create_GET.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/APIAutomation/November/December/Dec022024/APITest003_Integration03_GET_PUT.java" beforeDir="false" />
+    <list default="true" id="d6f4aa7f-24ed-4c52-ae7d-10c05438ced0" name="Changes" comment="committing changes">
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/APIAutomation/January2025/REST2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/APIAutomation/January2025/REST2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -235,7 +225,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733194414436</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="committing changes">
+      <option name="closed" value="true" />
+      <created>1738205501923</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1738205501923</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -244,7 +242,8 @@
     <MESSAGE value="REST CRUD operations" />
     <MESSAGE value="Dec02-Integration" />
     <MESSAGE value="Dec03-Integration" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dec03-Integration" />
+    <MESSAGE value="committing changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="committing changes" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/APIAutomation$APITest003_Integration03_GET_PUT.ic" NAME="APITest003_Integration03_GET_PUT Coverage Results" MODIFIED="1733194146073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">

@@ -27,9 +27,6 @@ public class REST2 {
 
         String bookingId = response.jsonPath().getString("bookingid[0]");
         System.out.println("Booking ID is: " + bookingId);
-
-
-
     }
 
     @Test
