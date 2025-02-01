@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6f4aa7f-24ed-4c52-ae7d-10c05438ced0" name="Changes" comment="committing changes">
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/APIAutomation/January2025/REST2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/APIAutomation/January2025/REST2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/APIAutomation/February2025/Feb012025/IntegrationScenario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,38 +44,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.APITest001_BuilderPatternDesign.executor": "Run",
-    "Application.APITest01.executor": "Run",
-    "Application.HealthCheck.executor": "Run",
-    "Application.Static_Example.executor": "Run",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "TestNG.APITest001_Integration01.executor": "Run",
-    "TestNG.APITest001_RESTAssuredBasics.testGetRequest.executor": "Run",
-    "TestNG.APITest002_Integration02_Create_GET.executor": "Run",
-    "TestNG.APITest002_POST_BDDSTYLE.test_Post_Req.executor": "Run",
-    "TestNG.APITest003_Integration03_GET_PUT.executor": "Run",
-    "TestNG.APITest003_POST_NONBDDSTyle.test_Post_Req.executor": "Run",
-    "TestNG.APITest004_GET_NONBDDStyle.executor": "Run",
-    "TestNG.APITest004_GET_NONBDDStyle.test_GET_Req.executor": "Run",
-    "TestNG.APITest005_DELETE_NONBDDStyle.test_Delete_Req.executor": "Debug",
-    "TestNG.APITest005_PUT_NonBDDStyle.test_PUT_Req.executor": "Run",
-    "TestNG.C:/Personal/APIAutomation/testng.xml.executor": "Run",
-    "TestNG.C:/Personal/APIAutomation/testng2.xml.executor": "Run",
-    "TestNG.REST.testGETRequestBooking.executor": "Run",
-    "TestNG.REST2.testGETRequest.executor": "Run",
-    "TestNG.REST2.testPOSTBooking.executor": "Run",
-    "TestNG.Test01.executor": "Run",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Personal/APIAutomation",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.APITest001_BuilderPatternDesign.executor&quot;: &quot;Run&quot;,
+    &quot;Application.APITest01.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HealthCheck.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Static_Example.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;TestNG.APITest001_Integration01.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.APITest001_RESTAssuredBasics.testGetRequest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.APITest002_Integration02_Create_GET.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.APITest002_POST_BDDSTYLE.test_Post_Req.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.APITest003_Integration03_GET_PUT.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.APITest003_POST_NONBDDSTyle.test_Post_Req.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.APITest004_GET_NONBDDStyle.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.APITest004_GET_NONBDDStyle.test_GET_Req.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.APITest005_DELETE_NONBDDStyle.test_Delete_Req.executor&quot;: &quot;Debug&quot;,
+    &quot;TestNG.APITest005_PUT_NonBDDStyle.test_PUT_Req.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Personal/APIAutomation/testng.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Personal/APIAutomation/testng2.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.IntegrationScenario.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.IntegrationScenario.testCreateToken.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.REST.testGETRequestBooking.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.REST2.testGETRequest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.REST2.testPOSTBooking.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Test01.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Personal/APIAutomation&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Personal\APIAutomation" />
@@ -84,11 +87,36 @@
       <recent name="C:\Personal\APIAutomation\src\test\java\org\APIAutomation\Nov\November" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.REST2.testPOSTBooking">
-    <configuration name="C:/Personal/APIAutomation/testng3.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.IntegrationScenario">
+    <configuration name="IntegrationScenario" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomation" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng3.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.APIAutomation.February2025.Feb012025.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.APIAutomation.February2025.Feb012025" />
+      <option name="MAIN_CLASS_NAME" value="org.APIAutomation.February2025.Feb012025.IntegrationScenario" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntegrationScenario.testCreateToken" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.APIAutomation.February2025.Feb012025.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.APIAutomation.February2025.Feb012025" />
+      <option name="MAIN_CLASS_NAME" value="org.APIAutomation.February2025.Feb012025.IntegrationScenario" />
+      <option name="METHOD_NAME" value="testCreateToken" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -149,30 +177,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test01" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="APIAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.APIAutomation.November.December.Dec042024.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.APIAutomation.November.December.Dec042024" />
-      <option name="MAIN_CLASS_NAME" value="org.APIAutomation.November.December.Dec042024.Test01" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.IntegrationScenario" />
+        <item itemvalue="TestNG.IntegrationScenario.testCreateToken" />
         <item itemvalue="TestNG.REST2.testPOSTBooking" />
         <item itemvalue="TestNG.REST2.testGETRequest" />
         <item itemvalue="TestNG.REST.testGETRequestBooking" />
-        <item itemvalue="TestNG.C:/Personal/APIAutomation/testng3.xml" />
-        <item itemvalue="TestNG.Test01" />
       </list>
     </recent_temporary>
   </component>
@@ -233,7 +244,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738205501923</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="committing changes">
+      <option name="closed" value="true" />
+      <created>1738386651567</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1738386651568</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -244,6 +263,67 @@
     <MESSAGE value="Dec03-Integration" />
     <MESSAGE value="committing changes" />
     <option name="LAST_COMMIT_MESSAGE" value="committing changes" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/APIAutomation/February2025/Feb012025/IntegrationScenario.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/APIAutomation/February2025/Feb012025/IntegrationScenario.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/APIAutomation/February2025/Feb012025/IntegrationScenario.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/APIAutomation/February2025/Feb012025/IntegrationScenario.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/APIAutomation/February2025/Feb012025/IntegrationScenario.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/APIAutomation/February2025/Feb012025/IntegrationScenario.java</url>
+          <line>91</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/APIAutomation/February2025/Feb012025/IntegrationScenario.java</url>
+          <line>104</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/APIAutomation/February2025/Feb012025/IntegrationScenario.java</url>
+          <line>105</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/APIAutomation/February2025/Feb012025/IntegrationScenario.java</url>
+          <line>107</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/APIAutomation/February2025/Feb012025/IntegrationScenario.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/APIAutomation/February2025/Feb012025/IntegrationScenario.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/APIAutomation$APITest003_Integration03_GET_PUT.ic" NAME="APITest003_Integration03_GET_PUT Coverage Results" MODIFIED="1733194146073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
