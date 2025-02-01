@@ -6,6 +6,8 @@ import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import io.restassured.response.ValidatableResponse;
 import io.restassured.specification.RequestSpecification;
+import org.APIAutomation.utility.JsonUtility;
+import org.json.JSONObject;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -20,17 +22,19 @@ public class IntegrationScenario {
     @Test(priority = 1)
     public void testCreateToken() {
 
+        String filePath = "src/test/resources/Auth.json";
+        JSONObject jsonObject = JsonUtility.readJsonFile(filePath);
+
         request.baseUri("http://restful-booker.herokuapp.com");
         request.basePath("/auth");
         request.contentType(ContentType.JSON);
-        request.body("{\"username\" : \"admin\",\n" +
-                "    \"password\" : \"password123\"}");
+        request.body(jsonObject.toString());
 
         response = request.when().post();
         valResponse = response.then().statusCode(200);
         token = response.jsonPath().getString("token");
         valResponse.log().all();
-        System.out.println("TC1");
+        System.out.println("TC1 Success");
 
     }
 
@@ -68,7 +72,7 @@ public class IntegrationScenario {
     }
 
     @Test(priority = 3)
-    public String testUpdateBooking() {
+    public void testUpdateBooking() {
 
         request.baseUri("http://restful-booker.herokuapp.com");
         request.basePath("/booking/" + bookingID);
@@ -91,7 +95,7 @@ public class IntegrationScenario {
         valResponse.log().all();
         bookingID = response.jsonPath().getString("bookingid");
         System.out.println("TC3");
-        return bookingID;
+        //return bookingID;
 
     }
 
@@ -108,5 +112,25 @@ public class IntegrationScenario {
         String firstname = response.jsonPath().getString("firstname");
         Assert.assertEquals("Liju", firstname);
         System.out.println("TC4");
+    }
+
+    @Test(priority = 5)
+    public void testPATCHRequest() {
+        request.baseUri("http://restful-booker.herokuapp.com");
+        request.basePath("/booking/" + bookingID);
+        request.contentType(ContentType.JSON);
+        request.cookie("token", token);
+        request.body("{\n" +
+                "    \"firstname\" : \"James\",\n" +
+                "    \"lastname\" : \"Brown\"\n" +
+                "}");
+
+        response = request.when().patch();
+        valResponse = response.then().statusCode(200);
+        valResponse.log().all();
+        String firstname = response.jsonPath().getString("firstname");
+        Assert.assertEquals("James", firstname);
+        System.out.println("TC5 Success");
+
     }
 }
